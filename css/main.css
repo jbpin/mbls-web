@@ -1,0 +1,43 @@
+/*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
+
+html {
+    color: #f8e9cd;
+}
+
+body {
+    background: #18ad9c;
+}
+
+.header{
+    text-align: center;
+    padding-top:20px;
+}
+
+.bulles {
+    text-align: center;
+}
+
+.bulles img {
+    max-width: 550px;
+    width: 100%;
+    height: auto;
+}
+
+.white{
+    color:#f8e9cd;
+}
+
+.bulles a{
+    color:#f8e9cd;
+    font-family: lato;
+    display: block;
+    height: 20px;
+    width: 100%;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.bulles a span:before{
+    padding-right: 5px;
+}
