@@ -5,39 +5,99 @@ html {
 }
 
 body {
-    background: #18ad9c;
+  background: #f9e8d0;
+  font-family: "Roboto Slab";
+}
+
+.roboto{
+    font-family: "Roboto Slab";
 }
 
 .header{
-    text-align: center;
     padding-top:20px;
+    vertical-align: middle;
 }
 
-.bulles {
-    text-align: center;
+.logo{
+    padding: 20px;
 }
 
-.bulles img {
-    max-width: 550px;
-    width: 100%;
-    height: auto;
+.header a{
+    color:#333;
+}
+
+.header ul{
+    padding-top: 40px;
+}
+
+@media only screen and (max-width: 40em) { 
+    .header {
+        text-align: center;
+    }
+}
+
+.content, .content > .columns {
+    min-height: 400px;
 }
 
 .white{
     color:#f8e9cd;
 }
 
-.bulles a{
-    color:#f8e9cd;
-    font-family: lato;
-    display: block;
-    height: 20px;
-    width: 100%;
-    font-size: 28px;
-    font-weight: bold;
-    margin-top: 20px;
+.red, .green {
+    background: #dc483b;
+    height: 530px;
+    padding: 20px;
 }
 
-.bulles a span:before{
-    padding-right: 5px;
+.green {
+    background: #18ad9c;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .red, .green{
+        padding:50px;
+    }
+
+    .red {
+        padding-top: 100px;
+    }
+}
+
+.green h3{
+    color:#f8e9cd;
+    font-family: "Lato";
+}
+
+.green p{
+    font-size: 12px;
+    text-align: justify;
+    margin-bottom: 3em;
+}
+
+dl{
+    font-size: 11px;
+    font-family: "Lato";
+    color:white;
+    border-right: dotted 1px whitesmoke;
+    margin-right: 20px;
+}
+
+.green dl dt{
+    font-weight: 100;
+    margin-bottom: 0;
+}
+
+.green dl dt .has-tip{
+    color:white;
+    font-weight: 100;
+    border-bottom: solid 1px #fff;
+}
+
+.lighter{
+    font-weight: 100;
+}
+
+.space-bottom{
+    margin-bottom: 3em;
 }
