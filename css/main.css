@@ -46,7 +46,7 @@ body {
 
 .red, .green {
     background: #dc483b;
-    height: 510px;
+    min-height: 510px;
     padding: 20px;
 }
 
@@ -79,23 +79,23 @@ dl{
     font-size: 11px;
     font-family: "Lato";
     color:white;
-    border-right: dotted 1px whitesmoke;
-    margin-right: 20px;
+    border-right: solid 1px whitesmoke;
+    padding-right: 10px;
 }
 
 .green dl dt{
-    font-weight: 100;
+    font-weight: 200;
     margin-bottom: 0;
 }
 
 .green dl dt .has-tip{
     color:white;
-    font-weight: 100;
-    border-bottom: solid 1px #fff;
+    font-weight: 200;
+    border-bottom: dotted 1px #fff;
 }
 
 .lighter{
-    font-weight: 100;
+    font-weight: 200;
 }
 
 .space-bottom{
