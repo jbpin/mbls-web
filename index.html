@@ -28,13 +28,14 @@
         <![endif]-->
 
         <div class="row header">
-            <div class="columns small-4 medium-8 logo">
+            <div class="columns small-4 medium-4 logo">
                 <img src="img/logo.png" alt="Microbrasserie Lou Soulèu" width="100"></img>
             </div>
-            <div class="columns small-8 medium-4">
+            <div class="columns small-6 medium-5">
                 <ul class="inline-list text-center">
-                    <li><a href="mailto:info@mbls.fr" alt="info@mbls.fr" class="icon-envelop"><br/><span class="lighter roboto">Contact</span></a></li>
-                    <li><a href="https://www.facebook.com/LouSouleuBrasserie" target="_blank" alt="Microbrasserie Lou Soulèu sur Facebook" class="icon-fb"><br/><span class="lighter roboto">Facebook</span></a></li>
+                  <li><a href="#" data-reveal-id="mapModal" class="icon-location"><br/><span class="lighter roboto">Où déguster nos bières</span></a></li>
+                  <li><a href="mailto:info@mbls.fr" alt="info@mbls.fr" class="icon-envelop"><br/><span class="lighter roboto">Contact</span></a></li>
+                  <li><a href="https://www.facebook.com/LouSouleuBrasserie" target="_blank" alt="Microbrasserie Lou Soulèu sur Facebook" class="icon-fb"><br/><span class="lighter roboto">Facebook</span></a></li>
                 </ul>
             </div>
         </div>
@@ -99,6 +100,10 @@
                 </div>
             </div>
         </div>
+        <div id="mapModal" class="reveal-modal" data-reveal aria-labelledby="Où nous trouver." aria-hidden="true" role="dialog">
+          <iframe src="https://www.google.com/maps/d/embed?mid=zzJf81IO5_No.keJilOoIQd2E" width="100%" height="480"></iframe>
+          <a class="close-reveal-modal" aria-label="Close">&#215;</a>
+        </div>
         <!-- GA -->
         <script>
           (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -108,8 +113,6 @@
           ga('create', 'UA-64423780-1', 'auto');
           ga('send', 'pageview');
         </script>
-        <script>
-          $(document).foundation();
-        </script>
+        <script src="js/main.js"></script>
     </body>
 </html>
